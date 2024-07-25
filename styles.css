@@ -1,0 +1,13 @@
+body {
+    padding-top: 20px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-delete {
+    margin-left: 10px;
+}
