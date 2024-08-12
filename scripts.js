@@ -1,5 +1,5 @@
 function populateDropdown(url, dropdownId, valueField) {
-    fetch(`http://localhost:8080/${url}`)
+    fetch(`https://aayush-khosla.github.io/Rule_Engine_Management_ui/${url}`)
         .then(response => response.json())
         .then(data => {
             const dropdown = document.getElementById(dropdownId);
