@@ -1,5 +1,5 @@
 function populateDropdown(url, dropdownId, valueField) {
-    fetch(`https://aayush-khosla.github.io/Rule_Engine_Management_ui/${url}`)
+    fetch(`https://rule-engine-management-server-git-main-aayushkhoslas-projects.vercel.app/${url}`)
         .then(response => response.json())
         .then(data => {
             const dropdown = document.getElementById(dropdownId);
